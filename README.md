@@ -1,11 +1,5 @@
-# GIST Tool
-A simple web tool to manage GIST Planning.
-
-## What is GIST?
-**G**oals,
-**I**deas,
-**S**tep-Projects,
-**T**asks
+# Task Manager
+Personal TODO / Task Management program
 
 Basically, a way to manage projects in a much more agile manner.
 
