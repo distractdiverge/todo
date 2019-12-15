@@ -1,0 +1,23 @@
+{
+  "name": "APP_NAME",
+  "private": true,
+  "scripts": {
+    "lint": "lerna run lint --stream",
+    "test": "lerna run test --stream",
+    "start": "lerna run start --stream",
+    "upgrade": "lernaupdate",
+    "update": "npm run -s upgrade",
+    "postinstall": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "husky": "3.*",
+    "lerna": "3.*",
+    "lerna-update-wizard": "^0.17.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lerna run --concurrency 1 --stream precommit",
+      "post-checkout": "npm install"
+    }
+  }
+}
