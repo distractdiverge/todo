@@ -1,0 +1,26 @@
+type Project {
+  id: ID! !id
+  name: String!
+  lists: List[]
+  tasks: Task[]
+  tags: Tag[]
+}
+
+type List {
+  id: ID! !id
+  name: String!
+  tasks: Task[]
+  tags: Tag[]
+}
+
+type Task {
+  id: ID! !id
+  name: String!
+  subtasks: Task[]
+  tags: Tag[]
+}
+
+type Tag {
+  id: ID! !id
+  name: String!
+}

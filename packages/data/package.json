@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/alexlapinski/todo/issues"
+  },
+  "dependencies": {
+    "prisma": "^1.34.10"
   }
 }
