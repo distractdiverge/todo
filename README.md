@@ -6,7 +6,7 @@ Basically, a way to manage projects in a much more agile manner.
 ## Getting Started
 1. Clone this Repo
     ```bash
-    git clone git@github.com:alexlapinski/gist-tool.git
+    git clone git@github.com:alexlapinski/todo.git
     ```
 2. Install dependencies via NPM
     ```
@@ -17,5 +17,4 @@ Basically, a way to manage projects in a much more agile manner.
     npm start
     ```
     This will start both the front-end and backend. 
-    *You may need to also start the database (DynamoDB via Docker/Docker Compose).*
 4. Open the browser to ```http://localhost:3000```
